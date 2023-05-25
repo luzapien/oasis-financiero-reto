@@ -1,0 +1,59 @@
+<div class="w-full bg-white p-4 rounded-lg border">
+  <h3 class="text-2xl text-center font-semibold mb-6">User Form</h3>
+  <form
+    [formGroup]="formUser"
+    class="px-8 pt-6 pb-8 bg-white rounded flex flex-col gap-6"
+    (ngSubmit)="submitForm()"
+  >
+    <div class="flex flex-col gap-2">
+      <div>
+        <label
+          class="block mb-2 text-sm font-bold text-gray-700"
+          for="firstName"
+        >
+          First Name
+        </label>
+        <input
+          class="form-control simpleInput"
+          id="firstName"
+          type="text"
+          formControlName="firstName"
+        />
+      </div>
+      <div>
+        <label
+          class="block mb-2 text-sm font-bold text-gray-700"
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          class="form-control simpleInput"
+          id="lastName"
+          type="text"
+          formControlName="lastName"
+        />
+      </div>
+      <div>
+        <label class="block mb-2 text-sm font-bold text-gray-700" for="email">
+          Email
+        </label>
+        <input
+          class="form-control simpleInput"
+          id="email"
+          type="email"
+          formControlName="email"
+        />
+      </div>
+    </div>
+    <div class="text-center">
+      <button
+        [disabled]="!(formUser.valid && formUser.dirty)"
+        class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 disabled:bg-blue-100"
+        type="submit"
+      >
+        Submit Data
+      </button>
+    </div>
+  </form>
+</div>

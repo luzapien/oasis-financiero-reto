@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .simpleInput {
+    @apply w-full px-3 py-2 text-sm border rounded appearance-none;
+  }
+}
+
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary: #6a00ff;
+  --color-secondary: #8b00ff;
+  --color-tertiary: #a020f0;
+  --color-background: #0d0d0d;
+  --color-text: #ffffff;
+}
