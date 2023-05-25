@@ -1,0 +1,17 @@
+/* Neon Purple Color Palette */
+/* :root {
+  --color-primary: #6A00FF;
+  --color-secondary: #8B00FF;
+  --color-tertiary: #A020F0;
+  --color-background: #0D0D0D;
+  --color-text: #FFFFFF;
+} */
+
+/* Neon Green Color Palette */
+:root {
+  --color-primary: #A9FF99;
+  --color-secondary: #7EFF66;
+  --color-tertiary: #53FF53;
+  --color-background: #0D0D0D;
+  --color-text: #D4FECC;
+}

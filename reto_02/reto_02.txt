@@ -1,0 +1,7 @@
+Actualizar el API request para que use el endpoint:
+https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+
+El formato JSON de respuesta es:
+https://dictionaryapi.dev/
+
+La salida debe estar en un HTML con el CSS púrpura Neon.

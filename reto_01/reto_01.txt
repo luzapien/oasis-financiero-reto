@@ -1,0 +1,4 @@
+Hacer responsivo el HTML al ancho de pantalla
+Cambiar la paleta a verde neón
+Crear el usuario de servicio de Mongo y guardar la parte del formulario.
+Crear el docker file para Ubuntu, con Node JS, Angular y Mongo DB y exponer el puerto 3000 por defecto.

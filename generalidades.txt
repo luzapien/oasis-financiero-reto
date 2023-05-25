@@ -1,0 +1,4 @@
+Sistema operativo base: Ubuntu 20.04
+Node JS v 14.x
+Angular v 15
+Mongo DB v 6

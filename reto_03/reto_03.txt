@@ -1,0 +1,2 @@
+Separar el HTML en CSS, comparador.ts y los datos en data.JSON
+Mejorar estéticamente la tabla de salida.
