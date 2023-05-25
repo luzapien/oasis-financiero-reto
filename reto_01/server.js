@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // app.use(express.static("../angular-mongodb-app/dist/angular-mongodb-app/"));
 
 //Docker server
-app.use(express.static(process.cwd() + "/frontend/dist/angular-mongodb-app/"));
+app.use(express.static(__dirname + "/frontend/dist/angular-mongodb-app/"));
 
 // MongoDB connection
 mongoose
@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
   // res.sendFile("./angular-mongodb-app/dist/angular-mongodb-app/index.html");
 
   //Docker server
-  res.sendFile(process.cwd() + "/frontend/dist/angular-mongodb-app/index.html");
+  res.sendFile(__dirname + "/frontend/dist/angular-mongodb-app/index.html");
 });
 
 app.post("/api/users", async (req, res) => {
