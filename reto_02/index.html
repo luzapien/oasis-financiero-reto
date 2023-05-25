@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reto 02</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>Response</h2>
-    <pre id="responseCode"></pre>
+    <h2 class="title">Reto 02</h2>
+    <p class="paragraph">
+      This is the response from
+      <a
+        class="url"
+        href="https://api.dictionaryapi.dev/api/v2/entries/en/example"
+        target="_blank"
+      >
+        https://api.dictionaryapi.dev/api/v2/entries/en/example
+      </a>
+    </p>
+    <pre id="responseCode" class="codeBlock"></pre>
 
     <script type="text/javascript">
       fetch("http://localhost:3000/entries")
